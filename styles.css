@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 
 }
 
@@ -150,7 +151,7 @@ a:hover {
 
 
 
-@media (min-width: 376px){
+@media (min-width: 1024px){
   .pattern-background-mobile {
     display: none;
   }
@@ -158,7 +159,7 @@ a:hover {
   .pattern-background-desktop {
     display: block;
     position: absolute;
-    top: -100px;
+    top: -110px;
     width: 100%;
     z-index: -1;
   }
